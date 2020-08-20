@@ -1,0 +1,12 @@
+Uuid: 86549d1076bd485aa84c2c2685bd9ffd
+ExtensionType: 2
+Name: SQLi Query Tampering
+RepoName: sqli-query-tampering
+ScreenVersion: 1.2
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: Xer0Days
+ShortDescription: Extends and adds custom Payload Generators/Processors in Burp Suite's Intruder.
+EntryPoint: sqli_query_tampering.py
+BuildCommand: 

@@ -1,0 +1,27 @@
+<p>Sqlmap is a great automated tool for SQL vulnerabilities but it can be a little noisy when you perform pentesting or bug hunting! One of the cool part of Sqlmap is Tampering. Tampering gives us some functions/techniques to evade filters and WAF's.</p>
+
+<p>SQLi Query Tampering gives you the flexibility of manual testing with many powerful evasion techniques. This extension has two part:</p>
+
+<ol>
+	<li>Generator:
+		<ul>
+			<li>You are able to add your customized payloads</li>
+			<li>All evasion techniques grouped by DBMS type</li>
+			<li>Tampered payloads can be used as a Generator in Intruder or saved to clipboard/file</li>
+		</ul>
+	</li>
+	<li>Processor:
+		<ul>
+			<li>You have the ability to choose on of the tamper techniques as your processor</li>
+			<li>The processor can be added as a Payload Processor</li>
+			<li>You can add your payloads and tamper them based on the selected technique. Write one payload per line.</li>
+		</ul>
+	</li>
+</ol>
+
+<p>Usage notes:</p>
+
+<ul>
+	<li>All Tampered Queries (in Generator/Processor) returned in URL-Encoded</li>
+	<li>You can add a decode rule in Payload Processing section if you need URL-decoded payloads</li>
+</ul>
