@@ -2,8 +2,8 @@ Uuid: 86549d1076bd485aa84c2c2685bd9ffd
 ExtensionType: 2
 Name: SQLi Query Tampering
 RepoName: sqli-query-tampering
-ScreenVersion: 1.2
-SerialVersion: 1
+ScreenVersion: 1.3
+SerialVersion: 2
 MinPlatformVersion: 0
 ProOnly: False
 Author: Xer0Days
