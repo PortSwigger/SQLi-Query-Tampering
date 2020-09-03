@@ -3,10 +3,10 @@ ExtensionType: 2
 Name: SQLi Query Tampering
 RepoName: sqli-query-tampering
 ScreenVersion: 1.3
-SerialVersion: 2
+SerialVersion: 3
 MinPlatformVersion: 0
 ProOnly: False
-Author: Xer0Days
+Author: Hamid Rezaei
 ShortDescription: Extends and adds custom Payload Generators/Processors in Burp Suite's Intruder.
 EntryPoint: sqli_query_tampering.py
 BuildCommand: 
